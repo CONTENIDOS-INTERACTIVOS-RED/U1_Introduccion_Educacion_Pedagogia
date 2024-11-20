@@ -20,14 +20,14 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Desarrollo Físico y Motor en Niños y Adolescentes
-              h1.home-title.mb-4.text-uppercase Desarrollo y Ciclo Vital: Niños y Adolescentes
-              p.descripcion.mb-4 Esta unidad, Desarrollo Físico y Motor en Niños y Adolescentes, explora los cambios corporales y habilidades motrices clave desde la niñez hasta la adolescencia. Los estudiantes comprenderán cómo factores como genética, nutrición y entorno influyen en el crecimiento y las transformaciones hormonales de la pubertad, lo cual les permitirá apoyar a los jóvenes en cada etapa de su desarrollo.
+              p.home-main-title Introducción a la educación y pedagogía
+              h1.home-title.mb-4.text-uppercase Introducción a la educación y pedagogía
+              p.descripcion.mb-4 Desde tiempos antiguos, la educación ha sido un pilar esencial en la formación del ser humano, superando la simple transmisión de conocimientos. En esta primera unidad, exploraremos los conceptos fundamentales de la educación, profundizando en sus objetivos y finalidades, así como en su impacto en el desarrollo personal y social. Analizaremos cómo la educación contribuye a moldear habilidades, valores y actitudes que promueven la participación activa y crítica en la sociedad, ayudando a construir comunidades justas y responsables. Además, veremos su papel como motor de cambio, tanto en la vida individual como colectiva, y su importancia en un mundo en constante evolución.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡El éxito está en cada esfuerzo que haces hoy!
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para descubrir el verdadero propósito de la educación y cómo puede influir en tu vida y en la sociedad!
 
               .button-container.mt-auto
-                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'tema1' }")
+                router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")
                   div.iniciar-btn-container.w-100.w-md-auto
                     span.iniciar-btn-text INICIAR
                     div.icon
@@ -141,11 +141,12 @@ export default {
 .iniciar-btn-container
   .iniciar-btn-text
     transition: all 0.25s ease-in-out
-    background-color: #9EF0FD !important
-    color: #0B0A0A !important
+    background-color: #01A6B9 !important
+    color: #fff !important
   .icon
     transition: all 0.25s ease-in-out
-    background-color: #083E61 !important
+    background-color: #005A65 !important
+    color: #fff !important
   &:hover
     .icon
       transform: scale(1.06)

@@ -29,44 +29,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Concepto y finalidad de la educación ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Definición y elementos de la educación',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Objetivos y propósitos de la educación',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Slider',
+            titulo: 'Objetivos y propósitos de la educación',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -74,38 +56,35 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Objetivos y propósitos de la educación',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo:
+              'Educación en las civilizaciones antiguas: Mesopotamia, Egipto, Grecia y Roma',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Edad Media y Renacimiento: cambios y continuidades',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo:
+              'Ilustración y Revolución Industrial: nuevas ideas y estructuras educativas',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Listado',
+            titulo:
+              'Siglo XX y XXI: reformas, innovaciones y educación contemporánea',
             hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Línea de tiempo',
-            hash: 't_2_5',
           },
         ],
       },
@@ -113,20 +92,32 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo: 'Corrientes filosóficas y pedagógicas',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo: 'Filosofías clásicas en la educación',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo: 'Pedagogías clásicas: Montessori, Dewey, Piaget',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Diferentes enfoques educativos',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Corrientes contemporáneas',
+            hash: 't_3_4',
           },
         ],
       },
@@ -156,7 +147,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.zip',
+        download: 'downloads/Introduccion_Educacion_Pedagogia_U1.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -170,112 +161,92 @@ export default {
       },
     ],
   },
-  referencias: [
-    {
-      referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
-    },
-    {
-      referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
-    },
-    {
-      referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
-    },
-    {
-      referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
-    },
-  ],
+  referencias: [],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Ambiente de aprendizaje',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Se refiere al espacio físico y al clima emocional y social que se establece dentro del aula, influyendo en la motivación y el bienestar de los estudiantes',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Asimilación',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Proceso cognitivo en el que los estudiantes incorporan nueva información dentro de esquemas mentales ya existentes, según la teoría de Piaget',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Autoconocimiento',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Proceso de reflexión personal que permite a los individuos reconocer sus propias habilidades, intereses y valores, fundamental para el desarrollo personal',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Autonomía',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Capacidad de los individuos para tomar decisiones y aprender de manera independiente, gestionando su propio proceso educativo a lo largo de la vida',
     },
     {
-      termino: 'Moda',
+      termino: 'Competencias',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Conjuntos de conocimientos, habilidades y actitudes que permiten a los individuos enfrentar desafíos y desempeñarse adecuadamente en diferentes contextos',
     },
     {
-      termino: 'Diseña',
+      termino: 'Concientización',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Proceso de toma de conciencia sobre la propia realidad social, económica y política, que permite a los individuos identificar y cuestionar las estructuras de poder que perpetúan la desigualdad',
     },
     {
-      termino: 'DIseño',
+      termino: 'Currículo',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Conjunto de contenidos y experiencias de aprendizaje organizados y presentados a los estudiantes, que debe ser relevante y alineado con sus necesidades y contextos',
     },
     {
-      termino: 'Tipología',
+      termino: 'Desarrollo cognitivo',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Proceso de adquisición de conocimientos y habilidades intelectuales, que permite a los estudiantes comprender y analizar el mundo que les rodea',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Edubas',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Escuelas de Mesopotamia destinadas a la educación de los hijos de la élite, donde se enseñaban escritura, matemáticas y leyes',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Escribas',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Individuos entrenados en la escritura y administración, fundamentales en las civilizaciones antiguas, especialmente en Mesopotamia y Egipto',
     },
     {
-      termino: 'Interseccionalidad',
+      termino: 'Humanismo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Enfoque educativo que pone énfasis en el desarrollo integral del individuo, considerando tanto su crecimiento personal como emocional, con la autorrealización como meta',
     },
     {
-      termino: 'Interés superior del menor',
+      termino: 'Idealismo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Corriente filosófica que sostiene que la realidad se encuentra en las ideas y en el mundo de las formas; enfatiza el desarrollo del pensamiento crítico y la búsqueda del conocimiento verdadero',
+    },
+    {
+      termino: 'Inclusión',
+      significado:
+        'Valor que promueve la aceptación y participación de todos los estudiantes, independientemente de sus diferencias, en el proceso educativo',
+    },
+    {
+      termino: 'Metacognición',
+      significado:
+        'Capacidad del estudiante para reflexionar sobre su propio proceso de aprendizaje, fundamental en el constructivismo',
+    },
+    {
+      termino: 'Praxis',
+      significado:
+        'Concepto propuesto por Freire que se refiere a la combinación de reflexión y acción orientada al cambio social y a la transformación de la realidad',
+    },
+    {
+      termino: 'S. d.',
+      significado:
+        '("sine die" en latín) en citas bibliográficas: Indica que no se conoce la fecha de publicación de un documento',
+    },
+    {
+      termino: 'Socialización',
+      significado:
+        'Se refiere al proceso mediante el cual los individuos adquieren e internalizan los valores, normas, comportamientos y habilidades necesarios para interactuar de manera efectiva dentro de su cultura y sociedad. Este proceso ocurre principalmente a través de la interacción con otros, incluyendo familiares, compañeros, educadores y miembros de la comunidad',
     },
   ],
   complementario: [
