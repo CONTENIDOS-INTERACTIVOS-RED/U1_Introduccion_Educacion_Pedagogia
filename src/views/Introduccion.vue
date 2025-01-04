@@ -37,13 +37,11 @@
 
 <script>
 import BannerInterno from '../components/plantilla/BannerInterno'
-import Muestras from '../components/muestras/Muestras.vue'
 
 export default {
   name: 'Introduccion',
   components: {
     BannerInterno,
-    Muestras,
   },
   data: () => ({
     globalData: global,

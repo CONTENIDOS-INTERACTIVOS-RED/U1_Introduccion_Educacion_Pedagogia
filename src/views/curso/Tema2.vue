@@ -112,7 +112,7 @@
               p.text-bold.mb-3 Ilustración y Revolución Industrial  
               p.text-small Lo invitamos a leer el PDF Ilustración y Revolución Industrial y conocer el impacto de La Ilustración y la Revolución Industrial en la transformación de las estructuras educativas 
             .col-sm-auto
-              a.download-btn.boton.bg-azul.text-white(:href="obtenerLink('/downloads/Anexos_Ilustración y Revolución Industrial.pdf')" target="_blank")
+              a.download-btn.boton.bg-azul.text-white(:href="obtenerLink('/downloads/Anexos_5.pdf.pdf')" target="_blank")
                 span.text-small Descargar
                 i.fas.fa-arrow-right
     #t_2_4.titulo-segundo
@@ -144,15 +144,34 @@
         div.d-flex.align-items-center.bg-rosa.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-25.svg', alt='Texto que describa la imagen')
           p.pe-xl-5.mb-0 Asimismo, la educación contemporánea enfrenta retos significativos. La pandemia del COVID-19, por ejemplo, obligó a una rápida transición hacia la educación en línea y a distancia. Esta situación reveló desigualdades preexistentes y destacó la necesidad de repensar las políticas educativas para garantizar el acceso a todos los estudiantes, independientemente de su contexto socioeconómico. Las experiencias de este período han llevado a una reflexión profunda sobre la importancia de la flexibilidad y la adaptabilidad en los sistemas educativos (OECD, 2020).
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.jstor.org/stable/10.1086/cp.2003.98.issue-3" target="_blank" rel="noopener noreferrer") Cartledge, P. (2003). "Sparta and Lakonia: A Regional History 1300 to 362 BC." Routledge
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.academia.edu/96866476/Critical_Pedagogy" target="_blank" rel="noopener noreferrer") Giroux, H. A. (2011). On critical pedagogy. Nueva York: Continuum.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://open.spotify.com/show/1AFzBor2BPBzpzJvt3HhkO?si=8Eyq937wR-un48Ox4YRF1Q" target="_blank" rel="noopener noreferrer") Proyecto pedagógico investigativo (anfitrión) (2020). Historia de las ideas pedagógicas (podcast) Spotify
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 </template>
 
 <script>
-import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
   name: 'Tema2',
-  components: {
-    BannerInterno,
-  },
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()

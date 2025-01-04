@@ -20,8 +20,8 @@
           //- Columna derecha con información
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
-              p.home-main-title Introducción a la educación y pedagogía
-              h1.home-title.mb-4.text-uppercase Introducción a la educación y pedagogía
+              p.home-main-title UNIDAD 1
+              h1.home-title.mb-4 Introducción a la educación y pedagogía
               p.descripcion.mb-4 Desde tiempos antiguos, la educación ha sido un pilar esencial en la formación del ser humano, superando la simple transmisión de conocimientos. En esta primera unidad, exploraremos los conceptos fundamentales de la educación, profundizando en sus objetivos y finalidades, así como en su impacto en el desarrollo personal y social. Analizaremos cómo la educación contribuye a moldear habilidades, valores y actitudes que promueven la participación activa y crítica en la sociedad, ayudando a construir comunidades justas y responsables. Además, veremos su papel como motor de cambio, tanto en la vida individual como colectiva, y su importancia en un mundo en constante evolución.
 
               p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold ¡Prepárate para descubrir el verdadero propósito de la educación y cómo puede influir en tu vida y en la sociedad!

@@ -21,9 +21,9 @@
           .row.justify-content-between.align-items-center
             .col.mb-3.mb-sm-0
               p.text-bold.mb-3 Definición y elementos de la educación 
-              p.text-small ¿Qué implica  para cada uno de nosotros este proceso? ¿Cómo ha impactado en nuestra capacidad para convivir, colaborar y reflexionar sobre nuestro entorno? Lo invitamos a leer el PDF Definición y elementos de la educación , donde encontrará respuestas y perspectivas que seguramente resonarán con su propia experiencia de la educación.
+              p.text-small ¿Qué implica  para cada uno de nosotros este proceso? ¿Cómo ha impactado en nuestra capacidad para convivir, colaborar y reflexionar sobre nuestro entorno? Lo invitamos a leer el PDF Definición y elementos de la educación, donde encontrará respuestas y perspectivas que seguramente resonarán con su propia experiencia de la educación.
             .col-sm-auto
-              a.download-btn.boton.bg-azul(:href="obtenerLink('/downloads/Anexos_Definición y elementos de la educación.pdf')" target="_blank")
+              a.download-btn.boton.bg-azul(:href="obtenerLink('/downloads/Anexos_2.pdf.pdf')" target="_blank")
                 span.text-small Descargar
                 i.fas.fa-arrow-right
     
@@ -89,7 +89,7 @@
           .div(titulo="Autodescubrimiento")
             p A través de ella, el individuo es capaz de explorar sus intereses y pasiones, de formarse una identidad propia y de adquirir las habilidades necesarias para enfrentarse a los desafíos de la vida con confianza. Esta capacidad de autogestión y resiliencia, es fundamental en un mundo que cambia constantemente. Un individuo educado no es solo alguien que ha memorizado ciertos conceptos o dominado habilidades técnicas, sino alguien que tiene la capacidad de aprender a lo largo de toda la vida, adaptarse a nuevas situaciones y desarrollar una visión crítica de la realidad. En este sentido, la educación es un motor del crecimiento personal continuo (Knowles, 1975).
           .div(titulo="Desarrollo social")
-            p Como mencionaba Paulo Freire (1970), en su obra "Pedagogía del oprimido", la educación es un medio para liberar a las personas de la ignorancia y de las estructuras de poder que perpetúan la desigualdad. Según Freire, la educación debe ser un proceso de concientización en el que los individuos tomen conciencia de su realidad social, económica y política y, a partir de ello, busquen transformarla para mejorar las condiciones de vida tanto propias como de su comunidad. Esto es lo que él llamaba la "praxis ": la reflexión y acción que llevan al cambio social.
+            p Como mencionaba Paulo Freire (1970), en su obra "Pedagogía del oprimido", la educación es un medio para liberar a las personas de la ignorancia y de las estructuras de poder que perpetúan la desigualdad. Según Freire, la educación debe ser un proceso de concientización en el que los individuos tomen conciencia de su realidad social, económica y política y, a partir de ello, busquen transformarla para mejorar las condiciones de vida tanto propias como de su comunidad. Esto es lo que él llamaba la "praxis": la reflexión y acción que llevan al cambio social.
           .div(titulo="Competencias cívicas")
             p A través de la educación, las personas adquieren las competencias cívicas necesarias para participar activamente en la vida democrática. Saber leer y escribir, conocer la historia, entender los derechos humanos y los principios de justicia social, son aspectos esenciales para formar ciudadanos comprometidos con el bienestar colectivo. De esta manera, la educación no solo prepara para la vida laboral, sino también para la participación activa en la sociedad. A través del desarrollo de una conciencia crítica, los individuos pueden cuestionar las injusticias, trabajar por la equidad y contribuir a la creación de sociedades más justas y cohesionadas.
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
@@ -109,7 +109,37 @@
               p.text-bold.mb-2 Reflexione:
               p.pe-xl-3.mb-0(data-aos="fade-up") ¿Cómo puede la educación contribuir al desarrollo de la autoconfianza y la resiliencia en los individuos? 
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://eljibro.net/es/ereader/tecnologicadeloriente/35993" target="_blank" rel="noopener noreferrer") Platón. (1997). La República. (R. G. B. Andrés, Trans.). Ediciones Akal.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://eljibro.net/es/tc/tecnologicadeloriente/titulos/35766" target="_blank" rel="noopener noreferrer") Rousseau, J. (2004). Emilio o la educación: ( ed.). El 2d Editor.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://eljibro.net/es/ereader/tecnologicadeloriente/30134" target="_blank" rel="noopener noreferrer") Sartre, J. P. (1943). El ser y la nada. Buenos Aires: Losada.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://eljibro.net/es/ereader/tecnologicadeloriente/5010" target="_blank" rel="noopener noreferrer") Skinner, B. F. (1953). Some contributions of an experimental analysis of behavior to psychology as a whole. American Psychologist, 8(2), 69.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/fS1xaVxCFf4?si=2dnMDYwOUVAoYoD6" target="_blank" rel="noopener noreferrer") Medina L. (5 sep 2023) Travesía histórica de la educación, la pedagogía y la investigación educativa.
+
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 </template>
 
