@@ -24,7 +24,7 @@
               p.text-bold.mb-3 Filosofías clásicas en la educación
               p.text-small Lo invitamos a leer el PDF  Filosofías clásicas en la educación, donde encontrará los elementos más representativos de cada corriente filosófica.
             .col-sm-auto
-              a.download-btn.boton.bg-azul.text-white(:href="obtenerLink('/downloads/Anexos_Filosofías clásicas en la educación.pdf')" target="_blank")
+              a.download-btn.boton.bg-azul.text-white(:href="obtenerLink('/downloads/Anexos_3.pdf')" target="_blank")
                 span.text-small Descargar
                 i.fas.fa-arrow-right
     
@@ -62,7 +62,7 @@
         p Ahora vamos a profundizar en los diferentes enfoques educativos. Se ha preguntado alguna vez ¿por qué algunos métodos de enseñanza le funcionan mejor que otros? Esto se debe a que existen diversas corrientes pedagógicas que abordan el aprendizaje de maneras distintas, cada una con su propia perspectiva sobre cómo debería ser el proceso educativo.
         .d-flex.flex-column.align-items-start.bg-morado.p-4.mb-4(data-aos="fade-right")
           p.pe-xl-3.mb-3(data-aos="fade-up") Lo invitamos a conocer algunos enfoques educativos haciendo clic en el siguiente PDF Diferentes enfoques educativos.  
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_3.pdf.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_4.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Diferentes enfoques educativos.  
       .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-left")
@@ -80,7 +80,7 @@
         p Las corrientes contemporáneas de la educación, han evolucionado a lo largo del tiempo para adaptarse a las necesidades cambiantes de la sociedad y del individuo. A medida que se profundiza en el estudio de estas corrientes, es posible identificar enfoques claves que han influido en la pedagogía actual. 
         .d-flex.flex-column.align-items-start.bg-morado.p-4.mb-4(data-aos="fade-left")
           p.pe-xl-3.mb-3(data-aos="fade-up") Para conocer cada una de estas corrientes, lo invitamos a consultar el PDF #[strong Corrientes contemporáneas].
-          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_1.pdf.pdf')" target="_blank")
+          a.d-flex.me-auto.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_5.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Corrientes contemporáneas  
 

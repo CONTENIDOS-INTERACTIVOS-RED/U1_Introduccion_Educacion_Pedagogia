@@ -23,7 +23,7 @@
               p.text-bold.mb-3 Definición y elementos de la educación 
               p.text-small ¿Qué implica  para cada uno de nosotros este proceso? ¿Cómo ha impactado en nuestra capacidad para convivir, colaborar y reflexionar sobre nuestro entorno? Lo invitamos a leer el PDF Definición y elementos de la educación, donde encontrará respuestas y perspectivas que seguramente resonarán con su propia experiencia de la educación.
             .col-sm-auto
-              a.download-btn.boton.bg-azul(:href="obtenerLink('/downloads/Anexos_2.pdf.pdf')" target="_blank")
+              a.download-btn.boton.bg-azul(:href="obtenerLink('/downloads/Anexos_1.pdf')" target="_blank")
                 span.text-small Descargar
                 i.fas.fa-arrow-right
     

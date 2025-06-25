@@ -112,7 +112,7 @@
               p.text-bold.mb-3 Ilustración y Revolución Industrial  
               p.text-small Lo invitamos a leer el PDF Ilustración y Revolución Industrial y conocer el impacto de La Ilustración y la Revolución Industrial en la transformación de las estructuras educativas 
             .col-sm-auto
-              a.download-btn.boton.bg-azul.text-white(:href="obtenerLink('/downloads/Anexos_5.pdf.pdf')" target="_blank")
+              a.download-btn.boton.bg-azul.text-white(:href="obtenerLink('/downloads/Anexos_2.pdf')" target="_blank")
                 span.text-small Descargar
                 i.fas.fa-arrow-right
     #t_2_4.titulo-segundo
