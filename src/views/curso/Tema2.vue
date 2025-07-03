@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'unidad 1: Introducción a la educación y pedagogía'" :subTitulo="'2. Evolución histórica de la educación'")
+  BannerInterno.text-uppercase(:titulo="'Unidad 1. Introducción a la educación y pedagogía'" :subTitulo="'2. Evolución histórica de la educación'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     #t_2_1.titulo-segundo
